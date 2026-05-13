@@ -1,0 +1,91 @@
+/* =====================================================
+   WISHCRAFT — VIBRANT PURPLE-PINK DESIGN SYSTEM
+   Light Theme with Purple Primary & Pink Accent
+   ===================================================== */
+
+:root {
+  /* Primary Colors */
+  --primary: #7C3AED;
+  --primary-light: #A78BFA;
+  --primary-dark: #5B21B6;
+  --primary-glow: rgba(124, 58, 237, 0.15);
+
+  /* Accent Colors */
+  --accent-pink: #F472B6;
+  --accent-pink-light: #FBCFE8;
+  --accent-rose: #EC4899;
+
+  /* Backgrounds */
+  --color-bg: #FFFDFE;
+  --color-surface: #FFFFFF;
+  --color-surface-elevated: #F8F5FF;
+  --color-surface-hover: #F3EEFD;
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #7C3AED 0%, #F472B6 100%);
+  --gradient-festival: linear-gradient(135deg, #F59E0B 0%, #FB7185 100%);
+  --gradient-calm: linear-gradient(135deg, #06B6D4 0%, #3B82F6 100%);
+  --gradient-love: linear-gradient(135deg, #EC4899 0%, #F472B6 100%);
+  --gradient-card: linear-gradient(180deg, rgba(124,58,237,0.03) 0%, transparent 100%);
+
+  /* Typography */
+  --color-text: #0F172A;
+  --color-text-secondary: #64748B;
+  --color-text-light: #94A3B8;
+  --color-text-inverse: #FFFFFF;
+  --color-muted: #CBD5E1;
+
+  /* Functional Colors */
+  --color-free: #10B981;
+  --color-free-bg: rgba(16, 185, 129, 0.1);
+  --color-premium: #F59E0B;
+  --color-premium-bg: rgba(245, 158, 11, 0.1);
+  --color-error: #EF4444;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-info: #3B82F6;
+  --color-love: #EC4899;
+  --color-friendship: #14B8A6;
+
+  /* Border */
+  --color-border: #ECEAF3;
+  --color-border-light: #F1F0F6;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(124, 58, 237, 0.06);
+  --shadow-md: 0 4px 16px rgba(124, 58, 237, 0.08);
+  --shadow-lg: 0 8px 32px rgba(124, 58, 237, 0.10);
+  --shadow-primary: 0 4px 20px rgba(124, 58, 237, 0.2);
+  --shadow-primary-lg: 0 8px 30px rgba(124, 58, 237, 0.25);
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Typography Scale */
+  --font-heading: 'Poppins', 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Plus Jakarta Sans', 'Poppins', -apple-system, sans-serif;
+
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Z-Index */
+  --z-dropdown: 100;
+  --z-sticky: 200;
+  --z-modal-backdrop: 300;
+  --z-modal: 400;
+  --z-toast: 500;
+}

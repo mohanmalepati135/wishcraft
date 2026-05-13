@@ -1,0 +1,13 @@
+.admin-user-cell {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.admin-user-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--primary);
+}

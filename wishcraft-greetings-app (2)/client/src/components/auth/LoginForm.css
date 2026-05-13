@@ -1,0 +1,99 @@
+.login-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form__title {
+  font-family: var(--font-heading);
+  font-size: 2rem;
+  margin-bottom: var(--space-xs);
+  text-align: center;
+  color: var(--color-text);
+}
+
+.login-form__subtitle {
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  font-size: 0.95rem;
+}
+
+.login-form__group {
+  margin-bottom: var(--space-lg);
+}
+
+.login-form__label {
+  display: block;
+  margin-bottom: var(--space-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.login-form__input {
+  width: 100%;
+  padding: var(--space-md);
+  background: var(--color-surface-elevated);
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: all var(--transition-fast);
+}
+
+.login-form__input::placeholder {
+  color: var(--color-text-light);
+}
+
+.login-form__input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-glow);
+}
+
+.login-form__submit {
+  width: 100%;
+  padding: var(--space-md);
+  background: var(--gradient-primary);
+  color: var(--color-text-inverse);
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+  margin-top: var(--space-sm);
+}
+
+.login-form__submit:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-primary);
+}
+
+.login-form__submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-form__toggle {
+  text-align: center;
+  margin-top: var(--space-lg);
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.login-form__toggle-btn {
+  color: var(--primary);
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+.login-form__toggle-btn:hover {
+  color: var(--primary-dark);
+  text-decoration: underline;
+}
